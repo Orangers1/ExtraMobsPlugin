@@ -1,0 +1,13 @@
+name: SomeMoreMobs
+version: '${project.version}'
+main: somemoremobs.somemoremobs.SomeMoreMobs
+api-version: 1.18
+authors: [ Orangers ]
+description: Some more mobs made for nooba by orangers.
+commands:
+  spawncustommob:
+    description: spawns a custom mob
+    usage: /<command> <targetPlayer> <amountToSpawn> <TypeOfMob>
+  spawnmobarmy:
+    description: spawns an army of vanilla mobs
+    usage: /<command> <targetPlayer> <amountToSpawn> <TypeOfMob>
